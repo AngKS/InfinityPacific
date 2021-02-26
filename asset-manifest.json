@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/InfinityPacific/static/css/main.edf9e907.chunk.css",
+    "main.js": "/InfinityPacific/static/js/main.7b56928f.chunk.js",
+    "main.js.map": "/InfinityPacific/static/js/main.7b56928f.chunk.js.map",
+    "runtime-main.js": "/InfinityPacific/static/js/runtime-main.54851cee.js",
+    "runtime-main.js.map": "/InfinityPacific/static/js/runtime-main.54851cee.js.map",
+    "static/js/2.cf546e40.chunk.js": "/InfinityPacific/static/js/2.cf546e40.chunk.js",
+    "static/js/2.cf546e40.chunk.js.map": "/InfinityPacific/static/js/2.cf546e40.chunk.js.map",
+    "index.html": "/InfinityPacific/index.html",
+    "static/css/main.edf9e907.chunk.css.map": "/InfinityPacific/static/css/main.edf9e907.chunk.css.map",
+    "static/js/2.cf546e40.chunk.js.LICENSE.txt": "/InfinityPacific/static/js/2.cf546e40.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54851cee.js",
+    "static/js/2.cf546e40.chunk.js",
+    "static/css/main.edf9e907.chunk.css",
+    "static/js/main.7b56928f.chunk.js"
+  ]
+}
