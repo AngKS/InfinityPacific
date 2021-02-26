@@ -4,3 +4,19 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
+
+.bg-default {
+  background-color: #F7F7F2;
+}
+
+.bg-light-default {
+  background-color: #E4E6C3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #899878;
+}
+
+.text-default {
+  color: #899878;
+}

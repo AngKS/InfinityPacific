@@ -12,17 +12,18 @@ import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/InfinityPacific" exact component={HomePage} />
-          <Route path="/products" exact component={Products} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
-
-        </Switch>
+        <div className="bg-default container">
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/InfinityPacific" exact component={HomePage} />
+            <Route path="/products" exact component={Products} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+          </Switch>
+        </div>
         <Footer />
       </Router>
     </div>

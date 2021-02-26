@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-
+import "./footer.css"
 function Footer() {
     return (
-        <div className="container-fluid mt-5">
+        <div className="footer container-fluid mt-5">
             <div className="row">
-                <div className="col-lg-3 p-3">
+                <div className="col-md-3 p-3">
                     <h5>Site Map</h5>
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -25,7 +25,7 @@ function Footer() {
                         </li>   
                     </ul>
                 </div>
-                <div className="col-lg-3 p-3">
+                <div className="col-md-3 p-3">
                     <h5>Customer Service</h5>
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -42,7 +42,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-lg-3 p-3">
+                <div className="col-md-3 p-3">
                     <p>Follow us on our Social:</p>
                     <ul className="navbar-nav">
                         <li className="nav-item">
