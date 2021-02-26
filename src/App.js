@@ -7,6 +7,7 @@ import HomePage from './components/pages/HomePage';
 import Products from './components/pages/Products';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" exact component={Contact} />
 
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
