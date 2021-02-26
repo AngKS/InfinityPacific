@@ -18,13 +18,13 @@ function Carousel() {
             <div>
                 <Slider {...settings}>
                     <div>
-                        <img src="./vege/product1.jpeg" alt=""/>
+                        <img src="../media/vege/product1.jpeg" alt=""/>
                     </div>
                     <div>
-                        <img src="./vege/product2.jpeg" alt="" />
+                        <img src="../media/vege/product2.jpeg" alt="" />
                     </div>
                     <div>
-                        <img src="./vege/product3.jpeg" alt="" />
+                        <img src="../media/vege/product3.jpeg" alt="" />
                     </div>
                     <div>
                         <h3>4</h3>

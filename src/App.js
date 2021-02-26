@@ -16,6 +16,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={HomePage} />
+          <Route path="/InfinityPacific" exact component={HomePage} />
           <Route path="/products" exact component={Products} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />

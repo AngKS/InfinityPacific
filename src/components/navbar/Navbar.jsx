@@ -6,7 +6,7 @@ import "./navbar.css"
 function Navbar() {
     return (
         <div className="">
-            <img className=" justify-content-md-center" src={Logo} alt=""/>
+            <Link to="/"><img className=" justify-content-md-center" src={Logo} alt=""/></Link>
             <nav className="navbar navbar-expand-sm justify-content-md-center">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -35,7 +35,6 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                
             </nav>
         </div>
     )
