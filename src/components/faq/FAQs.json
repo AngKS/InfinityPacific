@@ -1,0 +1,21 @@
+{
+    "FAQs" : [
+        {
+            "id" : 1,
+            "title" : "Contactless Delivery",
+            "text" : "lorem ipsum dor lago ejsd asfs"
+        },
+        {
+            "id" : 2,
+            "title" : "Covid-19 Opening Hours",
+            "text" : "lorem ipsum dor lago ejsd asfs"
+        },
+        {
+            "id" : 3,
+            "title" : "How long does the Products last?",
+            "text" : "lorem ipsum dor lago ejsd asfs"
+        }
+
+    ]
+
+}

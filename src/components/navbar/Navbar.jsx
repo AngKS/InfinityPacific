@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className="">
             <Link to="/"><img className=" justify-content-md-center" src={Logo} alt=""/></Link>
-            <nav className="navbar navbar-expand-sm justify-content-md-center">
+            <nav className="navbar navbar-expand-sm justify-content-md-center sticky-top">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link to="/" className="nav-link">Home</Link>
