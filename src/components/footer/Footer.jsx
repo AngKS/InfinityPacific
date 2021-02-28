@@ -9,19 +9,19 @@ function Footer() {
                     <h5>Site Map</h5>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link">Home</Link>
+                            <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link">Products</Link>
+                            <Link to="/products" className="nav-link">Products</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link">Promotions</Link>
+                            <Link to="/promotions" className="nav-link">Promotions</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link">About Us</Link>
+                            <Link to="/about" className="nav-link">About Us</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link">Contact Us</Link>
+                            <Link to="/contact" className="nav-link">Contact Us</Link>
                         </li>
                     </ul>
                 </div>
@@ -77,7 +77,7 @@ function Footer() {
             <hr/>
             <div className="row display-flex">
                 <p className="text-center text-muted">&copy; Infinity Pacific 2021</p>
-                <p className="float-right"><i className="small text-muted">created by <a href="https://www.github.com/angks">AKS</a></i></p>
+                <p className="float-right"><i className="small text-muted">created by <a href="https://angks.github.io/">AKS</a></i></p>
             </div>
         </div>
     )
