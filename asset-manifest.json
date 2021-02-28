@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/InfinityPacific/static/css/main.1e400c9f.chunk.css",
-    "main.js": "/InfinityPacific/static/js/main.5f891b79.chunk.js",
-    "main.js.map": "/InfinityPacific/static/js/main.5f891b79.chunk.js.map",
+    "main.js": "/InfinityPacific/static/js/main.177bf1a2.chunk.js",
+    "main.js.map": "/InfinityPacific/static/js/main.177bf1a2.chunk.js.map",
     "runtime-main.js": "/InfinityPacific/static/js/runtime-main.54851cee.js",
     "runtime-main.js.map": "/InfinityPacific/static/js/runtime-main.54851cee.js.map",
-    "static/js/2.d097b0c0.chunk.js": "/InfinityPacific/static/js/2.d097b0c0.chunk.js",
-    "static/js/2.d097b0c0.chunk.js.map": "/InfinityPacific/static/js/2.d097b0c0.chunk.js.map",
+    "static/js/2.734fe04e.chunk.js": "/InfinityPacific/static/js/2.734fe04e.chunk.js",
+    "static/js/2.734fe04e.chunk.js.map": "/InfinityPacific/static/js/2.734fe04e.chunk.js.map",
     "index.html": "/InfinityPacific/index.html",
     "static/css/main.1e400c9f.chunk.css.map": "/InfinityPacific/static/css/main.1e400c9f.chunk.css.map",
-    "static/js/2.d097b0c0.chunk.js.LICENSE.txt": "/InfinityPacific/static/js/2.d097b0c0.chunk.js.LICENSE.txt",
+    "static/js/2.734fe04e.chunk.js.LICENSE.txt": "/InfinityPacific/static/js/2.734fe04e.chunk.js.LICENSE.txt",
     "static/media/logo.0ef0d2e0.png": "/InfinityPacific/static/media/logo.0ef0d2e0.png",
     "static/media/promo.f1073f2d.png": "/InfinityPacific/static/media/promo.f1073f2d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.54851cee.js",
-    "static/js/2.d097b0c0.chunk.js",
+    "static/js/2.734fe04e.chunk.js",
     "static/css/main.1e400c9f.chunk.css",
-    "static/js/main.5f891b79.chunk.js"
+    "static/js/main.177bf1a2.chunk.js"
   ]
 }
