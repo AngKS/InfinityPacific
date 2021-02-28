@@ -16,7 +16,7 @@ function HomePage() {
                 <h1 className="text-center">Products</h1>
                 <div className="row justify-content-center my-3">
                     <div className="col-sm-5 mx-3 shadow-sm">
-                        <Link className="text-center text-decoration-none">
+                        <Link to="/products" className="text-center text-decoration-none">
                             <div className="">
                                 <i className="fas fa-leaf" />
                                 <h4>Vegetables</h4>
@@ -24,7 +24,7 @@ function HomePage() {
                         </Link>
                     </div>
                     <div className="col-sm-5 mx-3 shadow-sm">
-                        <Link className="text-center text-decoration-none">
+                        <Link to="/products" className="text-center text-decoration-none">
                             <div className="">
                                 <i className="fas fa-apple-alt" />
                                 <h4>Fruits</h4>
@@ -34,7 +34,7 @@ function HomePage() {
                 </div>
                 <div className="row justify-content-center my-3">
                     <div className="col-sm-5 mx-3 shadow-sm">
-                        <Link className="text-center text-decoration-none">
+                        <Link to="/products" className="text-center text-decoration-none">
                             <div className="">
                                 <i className="fas fa-leaf" />
                                 <h4>Dairy Products</h4>
@@ -42,7 +42,7 @@ function HomePage() {
                         </Link>
                     </div>
                     <div className="col-sm-5 mx-3 shadow-sm">
-                        <Link className="text-center text-decoration-none">
+                        <Link to="/products" className="text-center text-decoration-none">
                             <div className="">
                                 <i className="fas fa-ellipsis-h" />
                                 <h4>More</h4>
