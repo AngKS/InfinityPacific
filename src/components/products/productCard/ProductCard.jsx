@@ -5,10 +5,18 @@ import "./productCard.css"
 
 function ProductCard(props) {
 
+    let cart = localStorage.getItem("cart")
+    let quantity = cart ? cart : 0
+    let addItem = () => {
+        quantity++
+        localStorage.setItem("cart", quantity)
+    }
+
+
     return (
 
         <div className="d-inline-flex">
-            <Link to="/" className="card-container text-decoration-none">
+            <Link to="/products" className="card-container text-decoration-none" onClick={addItem}>
                 <figure className="m-0">
                     <img src="./placeholder.png" alt="product_image"/>
                 </figure>
@@ -25,6 +33,7 @@ function ProductCard(props) {
                     }
                     <p className="text-left">{props.props.product_description}</p>
                     <h6 className="text-danger justify-content-start" >${props.props.product_price.toFixed(2)}</h6>
+                    
                 </div>
             </Link>
         </div>
